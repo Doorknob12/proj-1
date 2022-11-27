@@ -1,0 +1,187 @@
+body {
+     text-align: center;
+     background-image: url(../media/background.jpg);
+     background-size: 50%;
+     color: #000000;
+}
+h1 {
+     position: relative;
+     text-align: center;
+     font-family: 'Knewave', cursive;
+	 margin-left: 100px;
+	 margin-right: 100px;
+}
+h2 {
+     font-size: 2em;
+     font-family: 'Fuzzy Bubbles', cursive;
+     text-decoration: underline;
+}
+ul li {
+     list-style-type: none;
+}
+.not{
+     font-family: 'Fuzzy Bubbles', cursive;
+     list-style-type: underline;
+}
+.professional {
+     font-family: Helvetica;
+}
+#image-2 {
+     height: 260px;
+     width: 300px;
+     left: 300px;
+}
+#image-3 {
+     height: 250px;
+     width: 450px;
+}
+.firstchar {
+     font-size: 1.5em;
+     font-family: 'Knewave', cursive;
+     color: black;
+     list-style-type: none;
+}
+.navbar ul {
+     overflow: hidden;
+     list-style-type: none;
+     display: inline-block;
+     padding: 0;
+     margin: 0;
+     position: relative;
+     border-style: inset;
+}
+.navbar ul li {
+     float: left;
+}
+.navbar ul li a {
+     text-decoration: none;
+     display: block;
+     padding: 10px 20px;
+     color: #000000 
+}
+.navbar ul li a:hover {
+     background-color: #544102;
+     text-decoration: none;
+     color: #FFFFFF;
+     font-family: 'Knewave', cursive;
+}
+.reason {
+     margin: 0px 200px 0px 200px 
+}
+.box {
+     left: 15px;
+     position: fixed;
+     float: left;
+     width: 100px;
+     background-color: white;
+	 overflow: hidden;
+}
+.box-link {
+     font-size: 20px;
+     padding: 15px;
+     font-style: italic;
+     border: outset;
+	 overflow: hidden;
+}
+
+.professional {
+	width: 260px;
+	overflow: visible;
+}
+
+.right {
+	float: right;
+	padding: 0px 200px 0px 0px;
+	
+}
+
+.left {
+	float: left;
+	padding: 0px 0px 0px 200px;
+}
+
+.header {
+}
+
+
+@media screen and (max-width: 640px) {
+	.professional {
+		padding: 0px;
+		width: auto;
+	}
+	.left {
+		float: none;
+	}
+	.right {
+		float: none;
+	}
+	h1 {
+		font-size: 2.5em;
+		margin-left: 165px;
+		margin-right: 50px;
+		
+	}
+	.reason {
+		margin-left: 165px;
+		margin-right: 50px;
+	}
+	.reason p {
+		font-size: 1.2em;
+	}
+
+}
+
+@media screen and (min-width: 640px)and (max-width: 800px) {
+	.right {
+		padding: 0px 50px 0px 0px;
+	}
+	.left {
+		padding: 0px 0px 0px 50px;
+	}
+	.reason {
+		margin-left: 165px;
+		margin-right: 50px;
+	}
+	
+	.reason p {
+		font-size: 1.2em;
+	}
+	
+	h1 {
+		font-size: 3em;
+		margin-left: 165px;
+		margin-right: 50px;
+	}
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+	.right {
+		padding-right: 100px;
+	}
+	.left {
+		padding-left: 100px;
+	}
+	h1 {
+		font-size: 2.5em;
+		margin-left: 265px;
+		margin-right: 150px;
+	}
+	.reason {
+		margin-left: 215px;
+		margin-right: 100px;
+	}
+	.reason p {
+		font-size: 1.2em;
+	}
+}
+
+
+#map{
+  position: absolute;
+  width: 60%;
+  height: 500px;
+  right: 20%;
+  top: 10%;
+  border: solid black 5px;
+  border-radius: 10px;}
